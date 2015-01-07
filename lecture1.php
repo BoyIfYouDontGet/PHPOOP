@@ -15,9 +15,8 @@ $cat1­>lastName = “whiskers”;
 print “The cat’s name is {$cat1­>getName()}.”;
 //The cat’s name is Mister whiskers.
 
-?>
 
-<?php
+
 class Horse{
 public $jerry = “jerry”;
 public $whiskers = “whiskers”;
@@ -34,8 +33,7 @@ $horse1­>lastName = “whiskers”;
 print “The horse’s name is {$horse1­>getName()}.”;
 //The horse’s name is Jerry whiskers.
 
-?>
-<?php
+
 class Fish{
 public $Diego = “Diego”;
 public $whiskers = “whiskers”;

@@ -1,53 +1,55 @@
 <?php
 class Cat{
-public $Mister = “Mister”;
-public $whiskers = “whiskers”;
-public $male = “male”;
-public $price = 0;
-function getName() {
-return “{$this­>Mister}” .
-“{$this­>whiskers}”;
+	public $firstName = "default name";
+	public $type = "default name";
+	public $price = "0";
+	
+	function getName(){
+		return "{$this­>firstName}" .
+		"{$this­>type}";
+	}
 }
-}
+
 $cat1 = new Cat();
-$cat1­>Mister = “Mister”;
-$cat1­>lastName = “whiskers”;
-print “The cat’s name is {$cat1­>getName()}.”;
+$cat1­>firstName = "Mister";
+$cat1­>type= "whiskers";
+
+print "The cat’s name is {$cat1­>getName()}";
 //The cat’s name is Mister whiskers.
 
 
 
 class Horse{
-public $jerry = “jerry”;
-public $whiskers = “whiskers”;
-public $male = “male”;
-public $price = 0;
+public $jerry = "default name";
+public $whiskers = "whiskers";
+public $male = "male";
+public $price = "0";
 function getName() {
-return “{$this­>jerry}” .
-“{$this­>whiskers}”;
+return "{$this­>jerry}" .
+"{$this­>whiskers}";
 }
 }
 $horse1 = new Horse();
-$horse1­>jerry = “jerry”;
-$horse1­>lastName = “whiskers”;
-print “The horse’s name is {$horse1­>getName()}.”;
+$horse1­>jerry = "jerry";
+$horse1­>lastName = "whiskers";
+print "The horse’s name is {$horse1­>getName()}.";
 //The horse’s name is Jerry whiskers.
 
 
 class Fish{
-public $Diego = “Diego”;
-public $whiskers = “whiskers”;
-public $male = “male”;
-public $price = 0;
+public $Diego = "default name";
+public $whiskers = "default name";
+public $male = "default name";
+public $price = "0";
 function getName() {
-return “{$this­>Diego}” .
-“{$this­>whiskers}”;
+return "{$this­>Diego}" .
+"{$this­>whiskers}";
 }
 }
 $Fish1 = new Fish();
-$Fish1­>Diego = “Diego”;
-$Fish1­>lastName = “whiskers”;
-print “The Fish’s name is {$Fish1­>getName()}.”;
+$Fish1­>Diego = "default name";
+$Fish1­>lastName = "default name";
+print "The Fish’s name is {$Fish1­>getName()}.";
 //The Fish’s name is Diego whiskers.
 
 

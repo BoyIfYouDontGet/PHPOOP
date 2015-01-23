@@ -121,3 +121,15 @@ $Whale1 = new Whale(“Blue”, “Whale”, “bluewhale”);
 print “Whale 1” : {$whale1­>getName()}\n;
 
 
+class House {
+	$neighborhood = "";
+	$price = "";
+	$type = "";
+	function __construct($neighborhood, $price, $type) {
+	$this­>neighborhood = $neighborhood;
+	$this->price = $price;
+	$this->type = $type;
+
+}
+}
+$house1= new House();
